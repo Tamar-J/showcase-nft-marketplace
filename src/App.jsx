@@ -1,4 +1,5 @@
-//import './App.css'
+import React from 'react'
+
 import { Download, Features, SectionWrapper } from './components'
 import assets from './assets'
 import styles from './styles/Global'
@@ -38,11 +39,11 @@ export default function App() {
       />
       <Download />
 
-      <div className="pb-[0.5rem] text-center banner04">
+      <footer className="pb-[0.5rem] text-center banner04">
         <p className={`${styles.pText} ${styles.whiteText}`}>
           Made with ❤️ by <span className="bold">Tamar</span>
         </p>
-      </div>
+      </footer>
     </>
   )
 }

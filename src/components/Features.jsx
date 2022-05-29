@@ -9,7 +9,7 @@ import FeatureCard from './FeatureCard'
 
 export default function Features({ banner }) {
   return (
-    <div className={`${styles.section} ${styles.bgPrimary} ${banner}`}>
+    <section className={`${styles.section} ${styles.bgPrimary} ${banner}`}>
       <div className={`${styles.subSection} flex-col text-center`}>
         <div>
           <h1 className={`${styles.h1Text} ${styles.whiteText}`}>Technologies</h1>
@@ -17,7 +17,7 @@ export default function Features({ banner }) {
             ProNef has been developed using a cross-platform technology, React Native.
           </p>
         </div>
-        <div className={styles.flexWrap}>
+        <section className={styles.flexWrap}>
           <FeatureCard 
             iconUrl={assets.react}
             iconText="React Native"
@@ -26,8 +26,8 @@ export default function Features({ banner }) {
             iconUrl={assets.javascript}
             iconText="JavaScript"
           />
-        </div>
+        </section>
       </div>
-    </div>
+    </section>
   )
 }

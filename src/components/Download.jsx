@@ -5,7 +5,7 @@ import assets from '../assets'
 
 export default function Download() {
   return (
-    <div className={`${styles.section} ${styles.bgWhite}`}>
+    <section className={`${styles.section} ${styles.bgWhite}`}>
       <div className={`${styles.subSection} flex-col text-center`}>
         <div>
           <h1 className={`${styles.h1Text} ${styles.blackText}`}>
@@ -26,6 +26,6 @@ export default function Download() {
           <img src={assets.scene} alt="donwload" className={styles.fullImg} />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
